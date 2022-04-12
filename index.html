@@ -80,17 +80,7 @@ attribution: '©
         }
         map.createPane('pane_StamenTonerLite_0');
         map.getPane('pane_StamenTonerLite_0').style.zIndex = 400;
-        var layer_StamenTonerLite_0 = L.tileLayer('http://tile.stamen.com/toner-lite/{z}/{x}/{y}.png', {
-            pane: 'pane_StamenTonerLite_0',
-            opacity: 1.0,
-            attribution: '<a href="http://maps.stamen.com/">Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL</a>',
-            minZoom: 1,
-            maxZoom: 28,
-            minNativeZoom: 0,
-            maxNativeZoom: 20
-        });
-        layer_StamenTonerLite_0;
-        map.addLayer(layer_StamenTonerLite_0);
+        
         function pop_capaLH_1(feature, layer) {
             layer.on({
                 mouseout: function(e) {
